@@ -1,0 +1,29 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+
+
+.lily {
+    font-family: 'Lily Script One', cursive;
+}
+
+
+
+#top {
+    background: red;
+    background: url('crumpledpaper.png') no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: left;
+    display:block;
+    padding:40px
+
+  }
+
+
+#title {
+    color: white;
+ }
