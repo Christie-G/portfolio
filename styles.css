@@ -12,7 +12,10 @@ html, body {
 
 }
 
+section {
+    min-height: 100vh;
 
+}
 
 #top {
     background: red;
@@ -20,7 +23,7 @@ html, body {
     height: 100%;
     text-align: left;
     display:block;
-    padding:40px;
+
     background-size: cover;
     min-height: 100vh;
 
@@ -54,6 +57,21 @@ html, body {
 
 }
 
+.pink-small {
+    background-color: #DF5C68;
+    color:white;
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    padding: 2px;
+    text-align: center
+
+}
+
+.pinktext{
+    color: #DF5C68;
+}
+
 .topnav {
     position: absolute;
     bottom: 0;
@@ -69,4 +87,28 @@ html, body {
 a:link, a:visited, a:hover, a:active,  a:focus {
     text-decoration: none;
     color: inherit;
+}
+
+#about {
+    border-top: 17px solid rgb(90,90,90);
+    padding-top: 35px;
+}
+
+blockquote {
+    font-size: 3em;
+}
+
+.gray {
+    color: gainsboro;
+}
+
+.floating-menu {
+font-family: sans-serif;
+background: ;
+padding: 5px;
+width: 75px;
+z-index: 100;
+position: fixed;
+bottom: 0px;
+right: 0px;
 }
