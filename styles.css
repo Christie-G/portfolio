@@ -95,7 +95,7 @@ a:link, a:visited, a:hover, a:active,  a:focus {
 }
 
 blockquote {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .gray {
@@ -111,4 +111,106 @@ z-index: 100;
 position: fixed;
 bottom: 0px;
 right: 0px;
+}
+
+#portfolio {
+    background-color: gainsboro;
+    padding: 25px;
+
+
+
+}
+
+.card {
+    border-radius: 7px;
+    background: #666;
+    padding: 5px
+}
+
+.card-header {
+    font-size: .8em;
+    font-weight: bold;
+    color: white;
+    border-bottom: 15px;
+    padding:5px;
+    margin: 4px;
+    margin-bottom: 0px;
+    background-color: #DF5C68;
+}
+.card-header:first-child {
+    border-radius: .25rem;
+}
+.card-columns {
+    width: 90%
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+.card-img {
+    width:100%;
+
+}
+
+.card-body {
+    padding: 5px;
+
+}
+
+.card-text {
+    color: white;
+}
+
+
+
+.box {
+    background: white;
+    padding: 7px;
+    width: 200px;
+    max-height: 200px;
+    margin:5px;
+    border-radius:5;
+    display:table-cell;
+
+}
+.box img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.clicked {
+
+    position:fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:30em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+
+}
+
+
+
+
+.leftabout {
+
+}
+
+.socnav {
+    width:200px ;
 }
